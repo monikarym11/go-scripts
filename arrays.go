@@ -48,6 +48,8 @@ func main(){
 	elemToReplace := 1
 	substitutionElem := 3
 	fmt.Printf("\nFunction arrayReplace([1, 2, 1], 1, 3) - expected: [3 2 3], got: %v", arrayReplace(inputArray, elemToReplace, substitutionElem))
-	
-	
+	inputArray = []int{2, 4, 1, 0}
+	fmt.Printf("\nFunction arrayMaximalAdjacentDifference([2, 4, 1, 0]) - expected: 3, got: %v", arrayMaximalAdjacentDifference(inputArray))
+	inputArray = []int{1, 1, 1}
+	fmt.Printf("\nFunction arrayChange([1, 1, 1]) - expected: 3, got: %v", arrayChange(inputArray))
 }
